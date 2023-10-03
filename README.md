@@ -37,3 +37,10 @@ curl --location --request PUT 'https://webcam.connect.prusa3d.com/c/snapshot' \
 * Which file formats are allowed? Is JPEG-2000 possible?
 * Where is is the ´fingerprint´ from? See https://github.com/falkorichter/prusa-connect-api/issues/2
 * Is the `https://webcam.connect.prusa3d.com/c/info`
+
+# outreach
+
+I reached out to Josef Prusa on Mastodon:
+* https://berlin.social/@volkersfreunde/111172878224039056
+* https://berlin.social/@volkersfreunde/111172913258846704
+* also reached out to https://www.facebook.com/pitlik / https://twitter.com/Pitlik who seems to be on the same topic in the forum (https://forum.prusa3d.com/forum/bugs-errors/prusaconnect-camera-api-issue-with-fingerprint/)
