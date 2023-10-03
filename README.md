@@ -17,3 +17,23 @@ I'd like to build an Android app or a flutter app eventually that is more effeci
   * saturation
   * ...
 * change the resolution
+
+## Other quick wins/ideas:
+* build a command line tool to upload pictures from a raspberry pi
+* octoprint plugin for camera integration
+
+# sample upload request (tested)
+
+```
+curl --location --request PUT 'https://webcam.connect.prusa3d.com/c/snapshot' \
+--header 'token: <your token from https://connect.prusa3d.com/printer/<your-printer>/cameras>' \
+--header 'fingerprint: <your token from reverse engineered from another web cam app' \
+--header 'Content-Type: image/jpeg' \
+--data '@z96u9g9q3/sample_upload.jpg'                             
+```
+
+## Questions:
+* What is max file size?
+* Which file formats are allowed? Is JPEG-2000 possible?
+* Where is is the ´fingerprint´ from? See https://github.com/falkorichter/prusa-connect-api/issues/2
+* Is the `https://webcam.connect.prusa3d.com/c/info`
