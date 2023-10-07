@@ -44,3 +44,4 @@ I reached out to Josef Prusa on Mastodon:
 * https://berlin.social/@volkersfreunde/111172878224039056
 * https://berlin.social/@volkersfreunde/111172913258846704
 * also reached out to https://www.facebook.com/pitlik / https://twitter.com/Pitlik who seems to be on the same topic in the forum (https://forum.prusa3d.com/forum/bugs-errors/prusaconnect-camera-api-issue-with-fingerprint/)
+* found https://gitlab.com/Pitel/prusaconnectcamera
